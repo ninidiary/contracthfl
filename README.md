@@ -1,4 +1,4 @@
-Abstract:
+# Abstract
 
 In the early stages of federated learning (FL), clients were commonly assumed to perform an identical number of local updates per communication round, leading researchers to adopt a simple weighted aggregation method (e.g., FedAvg) across clients' local models.
 However, in real-world edge computing or Internet of Things (IoT) scenarios, device heterogeneity and data heterogeneity often cause clients to perform varying numbers of local updates.
