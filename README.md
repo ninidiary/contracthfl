@@ -22,6 +22,4 @@ The implementation runs on:
 
 # Usage
 
-`fednova_main.py' is forked from \url{https://github.com/JYWa/FedNova}
-
-args_parser()
+`fednova_main.py' is the training script for [FedNoba](https://github.com/JYWa/FedNova). Different parameter setting can de defined in `args_parser()`
