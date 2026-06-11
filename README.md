@@ -18,3 +18,10 @@ The implementation runs on:
 * Python 3.5
 * Pytorch 1.0.0
 * TorchVision 0.2.1
+
+
+# Usage
+
+`fednova_main.py' is forked from \url{https://github.com/JYWa/FedNova}
+
+args_parser()
