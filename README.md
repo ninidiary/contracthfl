@@ -10,3 +10,11 @@ We develop optimal contracts under complete, weakly incomplete, and strongly inc
 Under complete and weakly incomplete information, we derive a closed-form solution showing that the server should only incentivize clients with both the lowest unit cost and the lowest data heterogeneity.
 Under strongly incomplete information, we transform the combinatorial problem into a convex optimization problem via a practical assumption of positive probabilities for client types.
 Our method achieves average cost reductions of 15\% and 5.5\% over the uniform contract and Stackelberg game benchmarks, respectively.
+
+
+# Requirements
+
+The implementation runs on:
+* Python 3.5
+* Pytorch 1.0.0
+* TorchVision 0.2.1
