@@ -21,6 +21,10 @@ The implementation runs on:
 
 
 # Usage
+Researchers can reproduce the simulation results by following the parameter settings in our main paper. 
 
-`fednova_main.py` is the training script for [FedNoba](https://github.com/JYWa/FedNova). 
-Different parameter setting can de defined in `args_parser()`
+## Code Structure
+
+* `demo_compare_mechanisms.ipynb`: Implements the convex optimization tool used to generate Figure 3-6.
+* `fednova_main.py`: The training script for [FedNova](https://github.com/JYWa/FedNova). Customize parameters via the `args_parser()` function.
+* `convergence_analysis.ipynb`: Performs convergence analysis using FedNova results to plot Figure 7-9.
