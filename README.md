@@ -12,19 +12,33 @@ Under strongly incomplete information, we transform the combinatorial problem in
 Our method achieves average cost reductions of 15\% and 5.5\% over the uniform contract and Stackelberg game benchmarks, respectively.
 
 
-# Requirements
-
-The implementation runs on:
-* Python 3.5
-* Pytorch 1.0.0
-* TorchVision 0.2.1
-
-
 # Usage
 Researchers can reproduce the simulation results by following the parameter settings in our main paper. 
 
 ## Code Structure
 
 * `demo_compare_mechanisms.ipynb`: Implements the convex optimization tool used to generate Figure 3-6.
-* `fednova_main.py`: The training script for [FedNova](https://github.com/JYWa/FedNova). Customize parameters via the `args_parser()` function.
+* `fednova_main.py`: The main training script for [FedNova](https://github.com/JYWa/FedNova). Customize parameters via the `args_parser()` function.
 * `convergence_analysis.ipynb`: Performs convergence analysis using FedNova results to plot Figure 7-9.
+
+
+We conducted 7 experiments based on code from [FedNova](https://github.com/JYWa/FedNova).
+Figure 7-8 utilizes experiments 1-4 while Figure 9 utilizes expriments 5-6.
+|Experiment|IID or alpha|local updates|
+|---|---|---|
+|1|0.5|U(0,20)|
+|2|0.1|U(0,20)|
+|3|IID|U(0,20)|
+|4|1|U(0,20)|
+|5|0.1|5|
+|6|0.1|20|
+|7|0.1|1|
+
+
+## Requirements
+
+The implementation runs on:
+* Python 3.5
+* Pytorch 1.0.0
+* TorchVision 0.2.1
+
