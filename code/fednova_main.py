@@ -26,7 +26,7 @@ import torchvision
 from torchvision import datasets, transforms
 import torch.backends.cudnn as cudnn
 
-from distoptim import FedProx, FedNova
+from distoptim import FedNova
 
 
 def args_parser():
