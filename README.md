@@ -19,10 +19,10 @@ Researchers can reproduce the simulation results by following the parameter sett
 ## Requirements
 
 The implementation runs on:
-* cvxpy 1.6
-* Python 3.11
-* Pytorch 2.0.0
-* TorchVision 0.15.0
+* cvxpy 1.9.1
+* Python 3.12.3
+* torch 2.8.0
+* torchvision 0.23.0
 
 ## Code Overview
 
