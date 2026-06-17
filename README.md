@@ -27,9 +27,10 @@ The implementation runs on:
 ## Code Overview
 
 - `demo_compare_mechanisms.ipynb`: Implements the convex optimization tool used to generate Figure 3-6.
-- `fednova_main.py`: Training script for experiments based on [FedNova](https://github.com/JYWa/FedNova).  
-  We reuse the core FedNova implementation and extend it with custom experiment configurations. We also added a new computation for the gradient norm.
-- `convergence_analysis.ipynb`: Performs convergence analysis using our experiment outputs to plot Figure 7-9.
+- `fednova_reuse`: Training script for experiments based on [FedNova](https://github.com/JYWa/FedNova).  
+  We reuse the core FedNova implementation and add a new computation for the gradient norm.
+  Run `run_this_fednova.ipynb`.
+- `convergence_analysis.ipynb`: Performs convergence analysis using our experiment outputs to plot Figure 7-9. Replace the file name with your own results.
 
 ### Experiments (FedNova-based)
 
