@@ -31,7 +31,8 @@ The implementation runs on:
   We reuse the core FedNova implementation and add a new computation for the gradient norm.
   Run `run_this_fednova.ipynb`.
   Under `result` folder, demo results are shown.
-- `convergence_analysis.ipynb`: Performs convergence analysis using our experiment outputs to plot Figure 7-9. Replace the file name with your own results.
+- `convergence_analysis.ipynb`: Performs convergence analysis using our experiment outputs to plot Figure 7-9. 
+Replace the file name with your own results. If you do not want to change path in this file, put this file under your `fednova_reuse/result/` and run directly.
 
 ### Experiments (FedNova-based)
 
@@ -49,7 +50,7 @@ Figure 7-8 correspond to Experiments 1–4; Figure 9 corresponds to Experiments 
 | 7          | 0.1          | 1              |
 
 > **Note**: The core FedNova implementation is from the original repository.  
-> This repository only includes our experiment scripts, configuration logic, and analysis notebooks.
+> If your have any question, please contact us.
 
 
 
