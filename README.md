@@ -30,6 +30,7 @@ The implementation runs on:
 - `fednova_reuse`: Training script for experiments based on [FedNova](https://github.com/JYWa/FedNova).  
   We reuse the core FedNova implementation and add a new computation for the gradient norm.
   Run `run_this_fednova.ipynb`.
+  Under `result` folder, demo results are shown.
 - `convergence_analysis.ipynb`: Performs convergence analysis using our experiment outputs to plot Figure 7-9. Replace the file name with your own results.
 
 ### Experiments (FedNova-based)
