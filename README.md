@@ -26,7 +26,7 @@ The implementation runs on:
 
 ## Code Overview
 
-- `demo_compare_mechanisms.ipynb`: Implements the convex optimization tool used to generate Figure 3-6.
+- `demo_compare_mechanisms.ipynb`: Implements the convex optimization tool used to generate Figure 3-6. We give demos for Figure 3 and 5.
 - `fednova_reuse`: Training script for experiments based on [FedNova](https://github.com/JYWa/FedNova).  
   We reuse the core FedNova implementation and add a new computation for the gradient norm.
   Run `run_this_fednova.ipynb`.
